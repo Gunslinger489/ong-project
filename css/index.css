@@ -1,0 +1,80 @@
+/* Showcase */
+.showcase {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.showcase__content {
+  max-width: 60rem;
+}
+
+.showcase__img {
+  background-image: url('../img/dog_walking.svg');
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  margin-left: 4rem;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Features */
+.features {
+  padding: 10rem 0;
+
+  background-color: #fdf1f1;
+}
+
+.features__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 6rem;
+}
+
+.feature__icon {
+  font-size: 4.5rem;
+  color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
+
+.feature__text {
+  font-size: 1.5rem;
+}
+
+/* About */
+.about {
+  padding: 10rem 0;
+  border-bottom: 1px solid #f0e9e9;
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+}
+
+.about__content {
+  padding: 6rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about__content .heading-tertiary {
+  color: var(--clr-primary);
+}
+
+.about__text {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}

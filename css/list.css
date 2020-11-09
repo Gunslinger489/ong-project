@@ -1,0 +1,56 @@
+/* Showcase list */
+.list-showcase {
+  margin-top: 4rem;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+}
+.list-showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: bottom;
+}
+
+.list {
+  padding: 8rem 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 6rem;
+}
+
+.card__item {
+  list-style: none;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__item .card__img {
+  width: 100%;
+}
+
+.card__info {
+  padding: 1.5rem;
+}
+
+.card__name {
+  font-size: 1.8rem;
+}
+
+.card__detail {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+.card__item .btn {
+  margin-bottom: 1.5rem;
+}
