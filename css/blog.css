@@ -1,0 +1,46 @@
+.main {
+  padding: 6rem 0;
+}
+.articles__container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.article-full-bleed {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.article__img {
+  width: 100%;
+  border-radius: 15px;
+}
+.article__description span {
+  font-size: 1.2rem;
+}
+
+.article__description h2 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin: 1.2rem 0;
+}
+
+.article__description p {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* articles */
+.articles {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .article-full-bleed {
+    grid-template-columns: 1fr;
+  }
+}
