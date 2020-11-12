@@ -14,6 +14,7 @@
   width: min(90%, 120rem);
   padding: 0 2rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .btn {
@@ -97,7 +98,7 @@
 .header {
   padding-top: 2rem;
   width: 100%;
-  height: 8rem;
+  height: 10rem;
 }
 
 .nav {
@@ -105,7 +106,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  height: 7rem;
 }
 
 .nav__logo {
@@ -130,12 +131,12 @@
 }
 
 .nav__link {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: var(--fw-400);
   color: var(--clr-grey);
   padding: 1.4rem 2.8rem;
 
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   transition: all 300ms;
 }
