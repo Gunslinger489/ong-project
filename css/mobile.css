@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 50%;
   }
@@ -40,5 +40,24 @@
   }
   .about .about__content {
     align-items: center;
+  }
+
+  /* Mobile */
+  .nav {
+    display: none;
+  }
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
   }
 }
