@@ -3,6 +3,12 @@
   background-color: #fff;
 }
 
+.main__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 6rem;
+}
+
 .card {
   background-color: rgb(255, 249, 249);
   border-radius: 5px;
@@ -15,7 +21,7 @@
 }
 .articles__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -51,4 +57,65 @@
 
 .article__description a:hover {
   border-bottom: 1px solid var(--clr-primary);
+}
+
+/* Sidebar */
+.sidebar {
+  padding: 1rem;
+}
+
+.sidebar__item {
+  border: 1px solid #777;
+  border-radius: 8px;
+  padding: 2rem;
+}
+.sidebar__item:first-child {
+  margin-bottom: 4rem;
+}
+.sidebar__item h3 {
+  font-size: 2.8rem;
+  font-weight: var(--fw-300);
+  color: var(--clr-secondary);
+  margin-bottom: 1rem;
+}
+.sidebar__item input {
+  padding: 16px;
+  margin-bottom: 1rem;
+  outline: none;
+  width: 100%;
+}
+.sidebar__item button {
+  padding: 1.6rem 3.2rem;
+  width: 100%;
+  border: 0;
+  color: #fff;
+  font-weight: var(--fw-700);
+  background-color: var(--clr-primary);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sidebar__item--find {
+  background-color: var(--clr-primary);
+}
+
+.sidebar__item--find h3 {
+  color: #fff;
+}
+
+.sidebar__item--find button {
+  background-color: var(--clr-primary);
+  border: 1px solid #fff;
+}
+
+.sidebar__item--newsletter {
+  border: none;
+  background-color: #27a5e0;
+}
+.sidebar__item--newsletter h3 {
+  color: #fff;
+}
+.sidebar__item--newsletter button {
+  background-color: #27a5e0;
+  border: 1px solid #fff;
 }
