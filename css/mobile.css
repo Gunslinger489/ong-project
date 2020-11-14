@@ -60,4 +60,9 @@
     height: 30px;
     margin-right: 20px;
   }
+
+  /* BLOG */
+  .main__container {
+    grid-template-columns: 1fr;
+  }
 }
