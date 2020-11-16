@@ -36,7 +36,7 @@
 .features {
   padding: 10rem 0;
 
-  background-color: #fdf1f1;
+  background-color: #ffe680;
 }
 
 .features__container {
@@ -47,7 +47,7 @@
 
 .feature__icon {
   font-size: 4.5rem;
-  color: var(--clr-primary);
+  color: #fff;
   margin-bottom: 1rem;
 }
 

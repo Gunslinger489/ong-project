@@ -1,0 +1,52 @@
+.store__banner img {
+  height: 50vh;
+  object-fit: cover;
+}
+.store__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store__title-h3 {
+  margin-right: 1.2rem;
+  font-size: 3.2rem;
+  font-weight: var(--fw-400);
+}
+.store__most {
+  padding: 4rem 0;
+}
+
+.store__most p {
+  font-size: 1.6rem;
+  max-width: 60rem;
+  font-weight: var(--fw-300);
+}
+.store__container {
+  display: flex;
+  padding: 4rem 0;
+  overflow-x: scroll;
+}
+.store__item {
+  flex: 0 0 25%;
+  list-style: none;
+  padding: 4rem;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.store__item:not(:last-child) {
+  margin-right: 2rem;
+}
+.store__name {
+  font-size: 1.4rem;
+  font-weight: var(--fw-300);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.store__price {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.footer .wave {
+  fill: var(--clr-primary);
+}

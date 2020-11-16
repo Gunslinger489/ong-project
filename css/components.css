@@ -6,7 +6,7 @@ COMPONENTS
 /* Header */
 .header {
   background-color: var(--clr-primary);
-  height: 70px;
+  height: 100px;
 }
 
 .header .container {
@@ -20,9 +20,6 @@ COMPONENTS
 .header__logo {
   font-size: 2rem;
   text-decoration: none;
-  color: #fff;
-}
-.header__dog {
   color: #fff;
 }
 
@@ -77,7 +74,7 @@ COMPONENTS
 }
 
 .footer__social .fab {
-  color: var(--clr-primary);
+  color: #fff;
 }
 
 .footer__social i:first-child {
