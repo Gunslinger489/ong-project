@@ -1,6 +1,6 @@
 /* Showcase */
 .showcase {
-  min-height: 60vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@
 .features {
   padding: 10rem 0;
 
-  background-color: #ffe680;
+  background-color: #ffe750;
 }
 
 .features__container {
@@ -47,7 +47,7 @@
 
 .feature__icon {
   font-size: 4.5rem;
-  color: #fff;
+  color: #e76f51;
   margin-bottom: 1rem;
 }
 
