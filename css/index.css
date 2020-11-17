@@ -21,7 +21,8 @@
 }
 
 .showcase__text {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: var(--fw-);
   color: #f0e9e9;
 }
 
@@ -50,7 +51,7 @@
 /* About */
 .about {
   padding: 10rem 0;
-  background-color: var(--clr-bg);
+  background-color: #ffe05d;
   border-bottom: 1px solid #f0e9e9;
 }
 .about__container {
@@ -58,6 +59,10 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 6rem;
+}
+
+.about__picture .picture {
+  object-fit: cover;
 }
 
 .about__content {

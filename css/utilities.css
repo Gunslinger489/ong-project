@@ -40,6 +40,11 @@
   font-weight: var(--fw-700);
 }
 
+.btn-full {
+  background-color: var(--clr-btn);
+  font-weight: var(--fw-700);
+}
+
 .btn-outline {
   border: 2px solid var(--clr-primary);
   color: var(--clr-primary);
