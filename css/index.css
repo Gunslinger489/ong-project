@@ -4,60 +4,53 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/dogBG.jpg');
+  background-size: cover;
+  background-position: right;
 }
 
 .showcase__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 600px;
 }
 
 .showcase__content {
-  max-width: 60rem;
-}
-
-.showcase__img {
-  background-image: url('../img/dog-bg.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  object-fit: cover;
-
-  width: 100%;
-  height: 50%;
+  max-width: 70rem;
 }
 
 .showcase__text {
   font-size: 1.5rem;
+  color: #f0e9e9;
 }
 
 /* Features */
 .features {
   padding: 10rem 0;
-
-  background-color: #ffe750;
 }
 
 .features__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
   gap: 6rem;
 }
 
 .feature__icon {
   font-size: 4.5rem;
-  color: #e76f51;
+  color: var(--clr-secondary);
   margin-bottom: 1rem;
 }
 
 .feature__text {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 /* About */
 .about {
   padding: 10rem 0;
+  background-color: var(--clr-bg);
   border-bottom: 1px solid #f0e9e9;
 }
 .about__container {
@@ -75,7 +68,7 @@
   justify-content: center;
   align-items: flex-start;
 }
-.about__content .heading-tertiary {
+.about__content .heading-2 {
   color: var(--clr-primary);
 }
 

@@ -1,15 +1,5 @@
 /* Utilities */
-.wave {
-  background-image: url('../img/wave.svg');
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  height: 100%;
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
+
 .container {
   width: min(90%, 120rem);
   padding: 0 2rem;
@@ -36,13 +26,18 @@
 
 .btn-primary {
   background-color: var(--clr-primary);
+  font-weight: var(--fw-700);
 }
 
 .btn-secondary {
-  background-color: var(--clr-secondary-dark);
+  background-color: var(--clr-secondary);
+  font-weight: var(--fw-700);
 }
-.btn-tertiary {
-  background-color: var(--clr-primary-dark);
+
+.btn-white {
+  background-color: #fff;
+  color: var(--clr-primary);
+  font-weight: var(--fw-700);
 }
 
 .btn-outline {
@@ -56,9 +51,17 @@
   font-weight: var(--fw-700);
 
   text-transform: uppercase;
-  line-height: 1.1;
+  line-height: 1.2;
   margin-bottom: 1rem;
-  color: var(--clr-primary);
+
+  display: inline-block;
+  color: transparent;
+  background-image: linear-gradient(
+    to left,
+    var(--clr-secondary),
+    var(--clr-secondary-light)
+  );
+  background-clip: text;
 }
 
 .heading-2 {
@@ -69,14 +72,14 @@
   text-transform: uppercase;
   line-height: 1.1;
   margin-bottom: 1rem;
-  color: var(--clr-secondary-dark);
+  color: var(--clr-primary);
 }
 
 .heading-3 {
   font-family: var(--ff-rubik);
   font-weight: var(--fw-700);
   font-size: 2.6rem;
-  color: var(--clr-secondary-dark);
+  color: var(--clr-primary-dark);
 }
 
 .heading-4 {
