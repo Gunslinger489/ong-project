@@ -61,6 +61,19 @@
     margin-right: 20px;
   }
 
+  /* Adopt */
+  .list-showcase .heading-2 {
+    font-size: 8rem;
+  }
+  .list-showcase .heading-2,
+  .list-showcase .heading-3 {
+    text-align: center;
+  }
+
+  .list-showcase .heading-3 {
+    top: 90%;
+  }
+
   /* BLOG */
   .main__container {
     grid-template-columns: 1fr;

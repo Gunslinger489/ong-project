@@ -12,17 +12,22 @@
   background-position: top;
 }
 
-.list-showcase .heading-2,
-.list-showcase .heading-3 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.list-showcase > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.list-showcase__h2 {
+  font-size: 8rem;
   color: var(--clr-secondary);
 }
 
-.list-showcase .heading-3 {
-  top: 45%;
+.list-showcase__h3 {
+  font-size: 3rem;
+  color: var(--clr-secondary);
 }
 
 .list {

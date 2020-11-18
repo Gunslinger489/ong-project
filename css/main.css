@@ -1,16 +1,14 @@
 :root {
-  --clr-primary: #1c1570;
-  --clr-primary-light: #160559;
-  --clr-primary-dark: #0f003d;
+  --clr-primary: #ff9642;
+  --clr-primary-light: #ffa45b;
 
-  --clr-secondary: #ffd000;
-  --clr-secondary-light: #ffe500;
-  --clr-btn: #ff9642;
+  --clr-secondary: #ffe05d;
+  --clr-secondary-light: #ffe05d;
 
   --clr-grey: #333;
-  --clr-black: #000;
+  --clr-black: rgb(34, 34, 34);
 
-  --clr-bg: #f6f4e6;
+  --clr-bg: #fbf6f0;
 
   --ff-open-sans: 'Open Sans', sans-serif;
 
