@@ -39,7 +39,8 @@
     grid-template-columns: 1fr;
   }
   .about .about__content {
-    align-items: center;
+    padding: 3rem;
+    text-align: center;
   }
 
   /* Mobile */

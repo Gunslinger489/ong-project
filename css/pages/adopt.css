@@ -7,7 +7,7 @@
 }
 .list-showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/showcase-list.jpg');
+    url('../../img/showcase-list.jpg');
   background-size: cover;
   background-position: top;
 }
@@ -89,8 +89,4 @@
 
 .card__item .btn:hover {
   transform: translate(0);
-}
-
-.footer {
-  background-color: #fff;
 }

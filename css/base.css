@@ -1,4 +1,52 @@
-/* Utilities */
+:root {
+  --clr-primary: #ff9642;
+  --clr-primary-light: #ffa45b;
+
+  --clr-secondary: #ffe05d;
+  --clr-secondary-light: #ffe05d;
+
+  --clr-grey: #333;
+  --clr-black: rgb(34, 34, 34);
+
+  --clr-bg: #fbf6f0;
+
+  --ff-open-sans: 'Open Sans', sans-serif;
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-open-sans);
+  font-weight: var(--fw-400);
+  line-height: 1.7;
+  color: #333;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* 
+--------------------------------------------
+                utilities
+-------------------------------------------- 
+*/
 
 .container {
   width: min(90%, 120rem);
