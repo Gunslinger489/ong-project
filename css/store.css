@@ -1,9 +1,10 @@
 .store__banner img {
-  height: 50vh;
+  height: 60vh;
   object-fit: cover;
 }
 .store__title {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -31,6 +32,13 @@
   list-style: none;
   padding: 4rem;
   border: 1px solid rgb(224, 224, 224);
+  transition: all 150ms;
+}
+
+.store__item:hover {
+  border: 1px solid var(--clr-secondary);
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 .store__item:not(:last-child) {
