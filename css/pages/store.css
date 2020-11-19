@@ -1,9 +1,10 @@
-.store__banner {
-  height: 60vh;
+.store {
+  padding-top: 10rem;
 }
-.store__banner img {
-  height: 60vh;
+.store__banner-img {
   object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 .store__title {
   display: flex;
@@ -26,9 +27,10 @@
   font-weight: var(--fw-300);
 }
 .store__container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
   padding: 4rem 0;
-  overflow-x: scroll;
 }
 
 .store__item {
@@ -57,18 +59,20 @@
 .store__price {
   font-size: 2rem;
   text-align: center;
+  color: var(--clr-primary);
 }
 
-.footer .wave {
-  fill: var(--clr-primary);
+.store__drop {
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .store__banner {
-    height: 40vh;
+    padding-top: 2rem;
   }
-  .store__banner img {
-    height: 50vh;
+  .store__banner-img {
+    height: 100%;
     object-fit: contain;
   }
 }

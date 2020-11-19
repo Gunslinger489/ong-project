@@ -6,7 +6,7 @@
   justify-content: center;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../../img/dogBG.jpg');
+    url('../../img/backgrounds/dogBG-min.jpg');
   background-size: cover;
   background-position: right;
 }
@@ -17,12 +17,12 @@
 }
 
 .showcase__content {
-  max-width: 70rem;
+  max-width: 80rem;
 }
 
 .showcase__text {
   font-size: 2rem;
-  font-weight: var(--fw-);
+  font-weight: var(--fw-300);
   color: #f0e9e9;
 }
 
@@ -39,7 +39,8 @@
 }
 
 .feature__icon {
-  font-size: 4.5rem;
+  width: 10rem;
+  height: 10rem;
   color: var(--clr-secondary);
   margin-bottom: 1rem;
 }
@@ -78,6 +79,7 @@
 .about__content {
   padding: 6rem 0;
 }
+
 .about__content .heading-2 {
   color: var(--clr-primary);
 }
@@ -144,7 +146,7 @@
   max-width: 50rem;
   margin: 0 auto;
   border: 1px solid rgb(212, 212, 212);
-  transform: skewX(-15deg);
+  border-radius: 10px;
 }
 
 .testimonial-slider ul.slider li:nth-child(1) {
@@ -168,7 +170,7 @@
 
 .testimonial-slider q {
   display: inline-block;
-  font: normal 2rem / 1.25 var(--ff-open-sans), Helvetica, Arial, sans-serif;
+  font: normal 2.2rem / 1.25 var(--ff-nunito), Helvetica, Arial, sans-serif;
   letter-spacing: 0.5pt;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   max-width: 35ch;

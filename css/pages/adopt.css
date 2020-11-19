@@ -7,7 +7,7 @@
 }
 .list-showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../../img/showcase-list.jpg');
+    url('../../img/backgrounds/showcase-min.jpg');
   background-size: cover;
   background-position: top;
 }

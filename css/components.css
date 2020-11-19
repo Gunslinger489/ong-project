@@ -60,7 +60,7 @@ COMPONENTS
   width: 100%;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../img/contact-BG.jpg');
+    url('../img/backgrounds/contact-BG-min.jpg');
 }
 
 .form {
@@ -127,7 +127,11 @@ COMPONENTS
 }
 /* Footer */
 .footer {
-  background-color: var(--clr-primary);
+  background: linear-gradient(
+    to right,
+    var(--clr-secondary),
+    var(--clr-secondary-light)
+  );
   position: relative;
   z-index: 1;
   padding: 8rem 0;

@@ -12,8 +12,9 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -85,7 +86,11 @@
         </h2>
         <div class="features__container">
           <div class="feature">
-            <i class="feature__icon fas fa-paw"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/com-ciumes.svg"
+              alt="Com ciumes"
+            />
             <h3 class="heading-3 mb-small">Ciúmes no ar!</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,7 +99,11 @@
             </p>
           </div>
           <div class="feature">
-            <i class="feature__icon fas fa-igloo"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/corrida.svg"
+              alt="Cachorro correndo"
+            />
             <h3 class="heading-3 mb-small">Correm em círculos</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,7 +113,11 @@
           </div>
 
           <div class="feature">
-            <i class="feature__icon fas fa-dog"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/cachorro.svg"
+              alt="Cachorro"
+            />
             <h3 class="heading-3 mb-small">São populares</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -114,7 +127,11 @@
           </div>
 
           <div class="feature">
-            <i class="feature__icon fas fa-award"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/corrida-2.svg"
+              alt="Com ciumes"
+            />
             <h3 class="heading-3 mb-small">Ótimos companheiros</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -124,7 +141,11 @@
           </div>
 
           <div class="feature">
-            <i class="feature__icon fas fa-trophy"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/brincando.svg"
+              alt="Cachorro brincando"
+            />
             <h3 class="heading-3 mb-small">Adoram brincar</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -134,7 +155,11 @@
           </div>
 
           <div class="feature">
-            <i class="feature__icon fas fa-heartbeat"></i>
+            <img
+              class="feature__icon"
+              src="img/svgs/dog.svg"
+              alt="Com ciumes"
+            />
             <h3 class="heading-3 mb-small">Mantém a pressão estável</h3>
             <p class="feature__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -150,7 +175,7 @@
     <section class="about" id="about">
       <div class="about__container">
         <div class="about__picture">
-          <img src="img/dog-bg.jpg" alt="" />
+          <img src="img/backgrounds/dog-bg-min.jpg" alt="Dog Background" />
         </div>
 
         <div class="about__content">
@@ -180,9 +205,7 @@
     <!-- Testimonials -->
     <section class="testimonials">
       <div class="container">
-        <h2 class="heading-2 text-center">
-          O quê estão falando sobre nós ❤️❤️❤️
-        </h2>
+        <h2 class="heading-2 text-center">O quê estão falando sobre nós ❤️</h2>
         <div class="testimonial-slider">
           <ul class="slider">
             <li>
@@ -230,10 +253,11 @@
           <p>Em poucos dias você já terá uma resposta.</p>
         </div>
         <div class="form-group">
-          <label for="name">Nome</label>
+          <label for="name">Nome:</label>
           <input
             class="input-control"
             type="text"
+            id="name"
             placeholder="ex: Luis Alberto"
             required
           />
@@ -252,18 +276,24 @@
         </div>
 
         <div class="form-group">
-          <label for="name">E-mail</label>
+          <label for="email">E-mail:</label>
           <input
             class="input-control"
             type="email"
+            id="email"
             placeholder="ex: doguinhos@dog.com"
             required
           />
         </div>
 
         <div class="form-group">
-          <label>Cidade</label>
-          <input class="input-control" placeholder="ex: Butiá" required />
+          <label for="city">Cidade:</label>
+          <input
+            class="input-control"
+            id="city"
+            placeholder="ex: Butiá"
+            required
+          />
         </div>
 
         <div class="form-group form-group-pref">
@@ -280,7 +310,7 @@
           <input
             class="input-control"
             type="radio"
-            id="male"
+            id="female"
             name="gender"
             value="female"
             required
@@ -309,7 +339,7 @@
         </div>
 
         <div class="form-group">
-          <label>Deixe uma mensagem</label>
+          <label>Deixe uma mensagem:</label>
           <textarea
             placeholder="Olá, bom dia! Quero adotar um pedrinho."
           ></textarea>

@@ -89,9 +89,4 @@
   .article__description {
     padding: 2rem;
   }
-
-  .store__banner img {
-    height: 50vh;
-    object-fit: contain;
-  }
 }

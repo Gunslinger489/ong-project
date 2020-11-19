@@ -1,16 +1,16 @@
 :root {
-  --clr-primary: #ff9642;
-  --clr-primary-light: #ffa45b;
+  --clr-primary: #ff8008;
+  --clr-primary-light: #ffc837;
 
-  --clr-secondary: #ffe05d;
-  --clr-secondary-light: #ffe05d;
+  --clr-secondary: #e44d26;
+  --clr-secondary-light: #f16529;
 
   --clr-grey: #333;
   --clr-black: rgb(34, 34, 34);
 
   --clr-bg: #fbf6f0;
 
-  --ff-open-sans: 'Open Sans', sans-serif;
+  --ff-nunito: 'Nunito', sans-serif;
 
   --fw-300: 300;
   --fw-400: 400;
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: var(--ff-open-sans);
+  font-family: var(--ff-nunito);
   font-weight: var(--fw-400);
   line-height: 1.7;
   color: #333;
@@ -74,9 +74,9 @@ img {
 
 .btn-primary {
   background-image: linear-gradient(
-    to right,
+    to left,
     var(--clr-primary),
-    var(--clr-primary-light)
+    var(--clr-secondary)
   );
   font-weight: var(--fw-700);
 }
@@ -136,7 +136,7 @@ img {
   text-transform: uppercase;
   line-height: 1.1;
   margin-bottom: 1rem;
-  color: var(--clr-primary);
+  color: var(--clr-secondary);
 }
 
 .heading-3 {
@@ -158,11 +158,13 @@ img {
   text-transform: uppercase;
   color: transparent;
   background-image: linear-gradient(
-    to right,
+    to left,
     var(--clr-primary),
-    var(--clr-primary-light)
+    var(--clr-secondary)
   );
   background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
 }
 
 .p {
