@@ -77,5 +77,20 @@
   /* BLOG */
   .main__container {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .articles__container .card {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
+  .article__description {
+    padding: 2rem;
+  }
+
+  .store__banner img {
+    height: 50vh;
+    object-fit: contain;
   }
 }

@@ -1,3 +1,6 @@
+.store__banner {
+  height: 60vh;
+}
 .store__banner img {
   height: 60vh;
   object-fit: cover;
@@ -27,6 +30,7 @@
   padding: 4rem 0;
   overflow-x: scroll;
 }
+
 .store__item {
   flex: 0 0 25%;
   list-style: none;
@@ -57,4 +61,14 @@
 
 .footer .wave {
   fill: var(--clr-primary);
+}
+
+@media (max-width: 768px) {
+  .store__banner {
+    height: 40vh;
+  }
+  .store__banner img {
+    height: 50vh;
+    object-fit: contain;
+  }
 }
