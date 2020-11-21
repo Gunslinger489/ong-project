@@ -30,7 +30,7 @@
 }
 
 .header__logo img {
-  height: 7rem;
+  height: 5rem;
 }
 
 .nav__list {
@@ -782,9 +782,6 @@
   background-color: rgb(243, 243, 243);
 }
 
-.store__banner {
-  padding-top: 1rem;
-}
 .store__banner-img {
   object-fit: cover;
   height: 100%;
@@ -942,8 +939,8 @@
 
   .menu-section.on .menu-toggle {
     position: absolute;
-    right: 0;
-    top: 1.5rem;
+    right: 2rem;
+    top: 4rem;
   }
   .menu-section.on .menu-toggle .one {
     transform: rotate(45deg) translate(7px, 7px);
