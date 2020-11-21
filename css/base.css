@@ -107,7 +107,7 @@ h6 {
 }
 
 .btn-full {
-  background-color: var(--clr-primary);
+  background: var(--gradient-secondary);
   font-weight: var(--fw-400);
 }
 
