@@ -5,18 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog - Notícias</title>
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico" />
 
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/main-min.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header class="header">
@@ -55,7 +48,7 @@
     <!-- posts -->
     <main class="main">
       <div class="container">
-        <h2 class="heading-2 text-center mb-medium">Notícias</h2>
+        <h2 class="text-center mb-medium">Notícias</h2>
         <div class="main__container">
           <section class="articles__container">
             <article class="card">
@@ -238,17 +231,19 @@
           </div>
 
           <div class="footer__social">
-            <h4>Nossas redes</h4>
-            <a target="_blank" href="https://twitter.com">
-              <i class="fab fa-twitter fa-3x"></i
-            ></a>
-            <a target="_blank" href="https://facebook.com">
-              <i class="fab fa-facebook fa-3x"></i
-            ></a>
+            <h4 class="mb-small">Nossas redes</h4>
+            <div class="footer__icons">
+              <a target="_blank" href="https://facebook.com">
+                <img src="img/svgs/facebook.svg" alt="Facebook ícone" />
+              </a>
+              <a target="_blank" href="https://instagram.com">
+                <img src="img/svgs/instagram.svg" alt="Instagram ícone" />
+              </a>
 
-            <a target="_blank" href="https://youtube.com">
-              <i class="fab fa-youtube fa-3x"></i
-            ></a>
+              <a target="_blank" href="https://whatsapp.com">
+                <img src="img/svgs/whatsapp.svg" alt="Whatsapp ícone" />
+              </a>
+            </div>
           </div>
         </div>
         <div class="footer__terms">
@@ -262,6 +257,7 @@
             <li><a href="#">Termos de uso</a></li>
           </ul>
         </div>
+      </div>
     </footer>
     <script src="js/script.js"></script>
   </body>
