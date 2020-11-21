@@ -125,6 +125,10 @@
 
 /* About */
 
+.about {
+  height: 100%;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -133,7 +137,7 @@
 
 .about__picture img {
   display: block;
-  max-height: 50rem;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -142,7 +146,7 @@
 }
 
 .about__text {
-  padding: 6rem;
+  padding: 3rem;
 }
 
 .about__text h2 {
@@ -417,11 +421,7 @@
 
 /* Footer */
 .footer {
-  background: linear-gradient(
-    to right,
-    var(--clr-secondary),
-    var(--clr-secondary-light)
-  );
+  background-color: #fff;
   position: relative;
   z-index: 1;
   padding: 8rem 0;
@@ -444,35 +444,46 @@
 
 .footer__address h4 {
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--clr-secondary);
 }
 
 .footer__address h5 {
   font-size: 1.3rem;
-  color: #fff;
+  color: var(--clr-primary);
 }
 
 .footer__address span {
   font-size: 1.4rem;
-  color: #fff;
+  color: var(--clr-primary);
 }
 
-.footer__social {
-  grid-column: end;
+.footer__schedule h4 {
+  font-size: 2rem;
+  color: var(--clr-primary);
+}
+
+.footer__schedule h5 {
+  font-size: 1.4rem;
+  color: rgb(90, 90, 90);
+}
+
+.footer__social h4 {
+  font-size: 2rem;
+  color: var(--clr-primary);
 }
 
 .footer__social .fab {
-  color: #fff;
+  color: var(--clr-primary);
 }
 .footer__social h3 {
   font-size: 3rem;
-  color: #fff;
+  color: var(--clr-primary);
 }
 .footer p {
   font-size: 1.4rem;
   font-weight: bold;
   font-style: italic;
-  color: #fff;
+  color: var(--clr-primary);
 }
 .footer__social i {
   margin-top: 1rem;
@@ -496,7 +507,7 @@
 
 .footer__terms ul li a {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--clr-primary);
 }
 
 .footer__terms ul li:hover {
@@ -541,6 +552,7 @@
 
 .list {
   padding: 8rem 0;
+  background-color: rgb(243, 243, 243);
 }
 
 .cards {
@@ -548,11 +560,13 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
   padding: 2rem 0;
+  overflow: hidden;
 }
 
 .card__item {
   list-style: none;
   background-color: #fff;
+
   overflow: hidden;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -570,8 +584,6 @@
 
 .card__item .card__img {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .card__info {
@@ -752,6 +764,7 @@
 
 .store {
   padding-top: 10rem;
+  background-color: rgb(243, 243, 243);
 }
 .store__banner-img {
   object-fit: cover;
@@ -791,6 +804,7 @@
   padding: 4rem;
   border: 1px solid rgb(224, 224, 224);
   transition: all 150ms;
+  background-color: #fff;
 }
 
 .store__item:hover {
