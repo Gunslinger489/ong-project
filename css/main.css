@@ -820,11 +820,147 @@
 }
 
 @media (max-width: 768px) {
-  .store__banner {
+  html {
+    font-size: 50%;
+  }
+  .showcase {
+    padding: 3rem;
+    text-align: center;
+  }
+  .showcase__container {
+    flex-direction: column;
+  }
+  .showcase__content {
     padding-top: 2rem;
   }
-  .store__banner-img {
+  .showcase__content .heading-1 {
+    font-size: 5.5rem;
+  }
+
+  .showcase__text {
+    font-size: 1.6rem;
+  }
+
+  .showcase__img {
+    order: -1;
+    background-size: cover;
+  }
+
+  /* features */
+  .features {
+    text-align: center;
+  }
+
+  /* about */
+  .about {
+    text-align: center;
+  }
+
+  .about .about__container {
+    grid-template-columns: 1fr;
+  }
+  .about .about__content {
+    padding: 3rem;
+    text-align: center;
+  }
+
+  /* Mobile */
+  .nav {
+    display: none;
+  }
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 300ms;
+  }
+
+  .menu-toggle {
+    width: 4rem;
+    height: 3rem;
+    margin-right: 4rem;
+    cursor: pointer;
+  }
+
+  /* fullscreen */
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+
+    width: 80vw;
+    height: 60vh;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on .nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+  }
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on .nav .nav__list {
+    display: block;
+    text-align: center;
+  }
+
+  .menu-section.on .nav .nav__link {
+    transition-duration: 500ms;
+    font-size: 2rem;
+    line-height: 4;
+    display: block;
+  }
+
+  /* Adopt */
+  .list-showcase .heading-2 {
+    font-size: 8rem;
+  }
+  .list-showcase .heading-2,
+  .list-showcase .heading-3 {
+    text-align: center;
+  }
+
+  .list-showcase .heading-3 {
+    top: 90%;
+  }
+
+  /* BLOG */
+
+  .articles__container .card {
+    grid-template-columns: 1fr;
     height: 100%;
-    object-fit: contain;
+  }
+
+  .article__description {
+    padding: 2rem;
+  }
+  .main__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
