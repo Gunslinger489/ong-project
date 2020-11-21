@@ -13,8 +13,7 @@
   width: 100%;
   height: 100px;
   z-index: 999;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url('../img/dogBG.jpg');
+  background: #000;
 }
 
 .header .container {
@@ -26,9 +25,12 @@
 }
 
 .header__logo {
-  font-size: 2rem;
   text-decoration: none;
   color: #fff;
+}
+
+.header__logo img {
+  height: 7rem;
 }
 
 .nav__list {
@@ -61,7 +63,7 @@
   justify-content: center;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../../img/backgrounds/dogBG-min.jpg');
+    url('../img/backgrounds/home-bg-min.jpg');
   background-size: cover;
   background-position: right;
 }
@@ -142,7 +144,7 @@
 }
 
 .about__content {
-  background: var(--gradient-primary);
+  background: var(--clr-primary-light);
 }
 
 .about__text {
@@ -353,7 +355,9 @@
   width: 100%;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../img/backgrounds/contact-BG-min.jpg');
+    url('../img/backgrounds/contact-bg-min.jpg');
+  background-size: cover;
+  background-position: 40vw;
 }
 
 .form {
@@ -527,9 +531,9 @@
 }
 .list-showcase {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../../img/backgrounds/showcase-min.jpg');
+    url('../img/backgrounds/adopt-bg-min.jpg');
   background-size: cover;
-  background-position: top;
+  background-position: left;
 }
 
 .list-showcase > div {
@@ -619,6 +623,7 @@
 .main {
   padding: 6rem 0;
   background-color: #fff;
+  border-bottom: 1px solid rgb(212, 212, 212);
 }
 
 .main__container {
