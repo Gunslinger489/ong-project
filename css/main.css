@@ -180,6 +180,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 6rem;
+
+  padding: 4rem;
 }
 
 .testimonial-text {
@@ -201,10 +203,21 @@
 }
 
 .testimonial {
-  padding: 2rem;
+  overflow: hidden;
+  padding: 4rem;
   border-radius: 10px;
   background-color: #fff;
-  height: 35rem;
+  height: 37rem;
+  transition: all 300ms;
+  backface-visibility: hidden;
+
+  display: grid;
+  grid-template-rows: 40px 150px 50px;
+  gap: 2rem;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
 }
 
 .testimonial__header {
@@ -212,6 +225,7 @@
   font-size: 2.25rem;
   font-weight: var(--fw-500);
   margin-bottom: 1.5rem;
+  align-self: center;
 }
 
 .testimonial__text {
@@ -224,6 +238,7 @@
   display: grid;
   grid-template-columns: 6.5rem 1fr;
   column-gap: 2rem;
+  align-self: end;
 }
 
 .testimonial__photo {
