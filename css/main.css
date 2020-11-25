@@ -146,7 +146,7 @@
 }
 
 .about__content {
-  background: var(--clr-primary-light);
+  background: var(--clr-secondary-light);
 }
 
 .about__text {
@@ -207,13 +207,9 @@
   padding: 4rem;
   border-radius: 10px;
   background-color: #fff;
-  height: 37rem;
+  height: 45rem;
   transition: all 300ms;
   backface-visibility: hidden;
-
-  display: grid;
-  grid-template-rows: 40px 150px 50px;
-  gap: 2rem;
 }
 
 .testimonial:hover {
