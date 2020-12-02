@@ -8,8 +8,3 @@ menuToggle.addEventListener("click", () => {
   menuSection.classList.toggle("on", show);
   show = !show;
 });
-
-ScrollReveal().reveal(".features", { delay: 500 });
-ScrollReveal().reveal(".about", { delay: 600 });
-ScrollReveal().reveal(".testimonials", { delay: 700 });
-ScrollReveal().reveal(".contact", { delay: 800 });
