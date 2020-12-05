@@ -13,12 +13,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="logo-box">
-          <a class="header__logo" href="home.html">
-            <img src="img/svgs/cachorro.svg" alt="doguinhos" />
-          </a>
-        </div>
+      <div class="bd-container">
+        <a class="header__logo" href="home.html">
+          <img src="img/svgs/cachorro.svg" alt="doguinhos" />
+        </a>
 
         <!-- Menu Mobile -->
         <div class="menu-section">
@@ -54,7 +52,7 @@
 
     <!-- List -->
     <main class="list">
-      <div class="container">
+      <div class="bd-container">
         <h2 class="list__h2 text-center mb-medium">Lista de doguinhos.</h2>
 
         <ul class="cards">
@@ -131,58 +129,61 @@
       </div>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__container">
-          <div class="footer__adresses">
-            <div class="footer__address">
-              <h5>Butiá-RS</h5>
-              <h4>(51) 3333-2222</h4>
-              <span>Rua dos bobos, Centro - 622</span>
-            </div>
-
-            <div class="footer__address">
-              <h5>São Vitoriano-RS</h5>
-              <h4>(51) 8782-7777</h4>
-              <span>Rua dos Kilombos, Charrua - 1111</span>
-            </div>
+    <footer class="footer section">
+      <div class="footer__container bd-container">
+        <div class="footer__adresses">
+          <div class="footer__address footer__address--1">
+            <h5>Butiá-RS</h5>
+            <h4>(51) 3333-2222</h4>
+            <span>Rua dos bobos, Centro - 622</span>
           </div>
 
-          <div class="footer__schedule">
-            <h4>Atendimento</h4>
-            <h5>Segunda à sexta-feira das 09hs às 18hs</h5>
-            <h5>loja@doguinhos.com.br</h5>
-          </div>
-
-          <div class="footer__social">
-            <h4 class="mb-small">Nossas redes</h4>
-            <div class="footer__icons">
-              <a target="_blank" href="https://facebook.com">
-                <img src="img/svgs/facebook.svg" alt="Facebook ícone" />
-              </a>
-              <a target="_blank" href="https://instagram.com">
-                <img src="img/svgs/instagram.svg" alt="Instagram ícone" />
-              </a>
-
-              <a target="_blank" href="https://whatsapp.com">
-                <img src="img/svgs/whatsapp.svg" alt="Whatsapp ícone" />
-              </a>
-            </div>
+          <div class="footer__address footer__address--2">
+            <h5>São Vitoriano-RS</h5>
+            <h4>(51) 8782-7777</h4>
+            <span>Rua dos Kilombos, Charrua - 1111</span>
           </div>
         </div>
-        <div class="footer__terms">
+
+        <div class="footer__schedule">
+          <h4>Atendimento</h4>
+          <h5>Segunda à sexta-feira das 09H às 18H</h5>
+          <h5>loja@doguinhos.com.br</h5>
+        </div>
+
+        <nav class="footer__social">
+          <h4>Nossas redes</h4>
           <ul>
-            <li><a href="#">Servicos</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Termos</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Politicas de Privacidades</a></li>
-            <li><a href="#">Perguntas frequentes</a></li>
-            <li><a href="#">Termos de uso</a></li>
+            <li>
+              <a href="https://facebook.com"
+                ><img src="img/svgs/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://whatsapp.com"
+                ><img src="img/svgs/whatsapp.svg" alt="Whatsapp"
+              /></a>
+            </li>
+            <li>
+              <a href="https://instagram.com"
+                ><img src="img/svgs/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
-      <div class="wave"></div>
+
+      <nav class="footer__terms bd-container">
+        <ul>
+          <li><a href="#">Servicos</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Politicas de Privacidades</a></li>
+          <li><a href="#">Perguntas frequentes</a></li>
+          <li><a href="#">Termos de uso</a></li>
+        </ul>
+      </nav>
     </footer>
     <script src="js/script.js"></script>
   </body>
